@@ -16,7 +16,8 @@ Student Project #3 during Google Front-End Development Nanodegree Program at Uda
 * Match all 8 pairs of cards in minimum moves and short time
 
 #### Screenshots
-![screenshot](https://i.imgur.com/hCHvnbQ.gif)
+![screenshot](https://http://www.kiepuszewski.com/project/udacity/memory-game/assets/screen.jpg)
+
 
 ## About the project
 This is #3 student project made for Udacity classroom on Front-End Web Developer track.
@@ -25,8 +26,6 @@ This is #3 student project made for Udacity classroom on Front-End Web Developer
 > link https://github.com/udacity/fend-project-memory-game
 
 The starter project has some HTML and CSS styling to display a static version of the Memory Game project. It needs to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file - `js/app.js` to start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
 
 #### External libraries Used
