@@ -1,0 +1,20 @@
+@media screen and (max-width: 600px) {
+  body {
+    background: none;
+    background-color: #fff;
+    font-size: 3.3vw;
+  }
+}
+@media screen and (min-width: 601px) {
+  body {
+    font-size: 20px;
+  }
+  .container {
+    box-shadow: 0 0 1em 0 rgba(46, 61, 73, 0.5);
+  }
+}
+@media screen and (min-width: 1921px) {
+  body {
+    font-size: 30px;
+  }
+}
