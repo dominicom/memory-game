@@ -62,7 +62,6 @@ function matched() {
     openCards.forEach(function(card){
       card.toggleClass('match');
     });
-    console.log(matchCards); // ---TO DELETE
     openCards = [];
   }, 500);
 }
@@ -126,7 +125,7 @@ function checkCard(card) {
 // SCORE
 function moveCounter() {
     moves++;
-    moveCount.text(moves);
+    moveCount.html(moves);
     if (moves === 14 || moves === 25){
       starRating();
     }
@@ -135,7 +134,7 @@ function moveCounter() {
 function setTimer() {
   interval = setInterval(function() {
     seconds++;
-    timer.text(seconds);
+    timer.html(seconds);
   }, 1000);
 }
 
@@ -149,14 +148,14 @@ function starRating() {
 function score() {
   let message = `in ${seconds} seconds and made it with ${moves} moves`;
   popup.removeClass('hide');
-  win.text(message);
+  win.html(message);
   clearTimeout(interval);
   restart.click(resetGame);
 }
 
 // GAME INITIATION
 function gameStart() {
-  moveCount.text(moves);
+  moveCount.html(moves);
   deck.empty();
   shuffleCards();
   $(card).click(checkCard);
@@ -175,7 +174,7 @@ function resetGame() {
   stars.removeAttr('style');
   finalRatingStars.removeAttr('style');
   clearTimeout(interval);
-  timer.text(seconds);
+  timer.html(seconds);
   popup.addClass('hide');
   gameStart();
 }

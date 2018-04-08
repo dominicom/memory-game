@@ -86,7 +86,9 @@ button:hover {
   background-color: #444;
 }
 
-.star {
+/* COLOR FILL SETTINGS FOR SVG GRAPHICS */
+.star,
+.score-panel .restart path {
   fill: currentColor;
 }
 
@@ -98,18 +100,20 @@ button:hover {
  * Styles for the deck of cards
  */
 
+/* DECK */
 .deck {
   width: 30em;
-  height: 30em; /* 680px; */
+  height: 30em;
   padding: 1.5em;
   border-radius: 1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 0; /* 0 3em; */
+  margin: 0;
 }
 
+/* CARDS */
 .deck .card {
   height: 6em;
   width: 6em;
@@ -134,10 +138,6 @@ button:hover {
   cursor: default;
   box-shadow: 0 10px 30px 0 rgba(46, 61, 73, 0.5);
 }
-/* ?? */
-.deck .card.show {
-
-}
 
 .deck .card.match {
   cursor: default;
@@ -152,8 +152,10 @@ button:hover {
 }
 
 /*
- * Styles for the Score Panel
+ * Styles for the Score Panel and final score popup
  */
+
+/* SCORE PANEL */
 .score-panel {
   height: 1.5em;
   display: flex;
@@ -204,10 +206,6 @@ button:hover {
 .score-panel .restart:first-child:hover {
   transform: rotate(360deg);
 }
-.score-panel .restart path {
-  fill: currentColor;
-}
-
 
 /* END PANEL */
 
