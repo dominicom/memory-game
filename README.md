@@ -15,9 +15,6 @@ Student Project #3 during Google Front-End Development Nanodegree Program at Uda
 * You have to match two cards of the same kind at the time
 * Match all 8 pairs of cards in minimum moves and short time
 
-#### Screenshots
-![screenshot](https://http://www.kiepuszewski.com/project/udacity/memory-game/assets/screen.jpg)
-
 
 ## About the project
 This is #3 student project made for Udacity classroom on Front-End Web Developer track.
