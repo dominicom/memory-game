@@ -17,7 +17,6 @@ Student Project #3 during Google Front-End Development Nanodegree Program at Uda
 
 #### Screenshots
 ![screenshot](screenshots/demo.gif)
-![screenshot](screenshots/screenshot.jpg)
 
 ## About the project
 This is #3 student project made for Udacity classroom on Front-End Web Developer track.
@@ -33,7 +32,7 @@ The starter project has some HTML and CSS styling to display a static version of
 * jQuery
 * Fisher–Yates shuffle from http://stackoverflow.com/a/2450976
 
-#### Graphics and design resourses
+#### Graphics and design resources
 
 Original graphic design and assets by the **Author**.
 Used tiles graphics in this project are registered, trademarked or attributted logos of:

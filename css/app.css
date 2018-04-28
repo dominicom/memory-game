@@ -200,7 +200,7 @@ button:hover {
   cursor: pointer;
   transform-origin: center center;
 }
-.score-panel .restart:hover {
+.score-panel .restart:hover { /* powtórka */
   transform: rotate(360deg);
 }
 .score-panel .restart:first-child:hover {
